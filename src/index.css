@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul{
+  margin-bottom: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.section {
+  height: 100vh;
+  width: 100vw;
+  padding: 50px 20px;
+}
+
+#home {
+  background-image: url('https://img.freepik.com/free-vector/doctor-taking-blood-sample-old-patient-hospital-man-doing-checkup-examination-clinic-senior-sitting-chair_575670-1318.jpg?t=st=1715895844~exp=1715899444~hmac=fc408f34b728356499515b362774d84d5a78bd555ea21c03fcef560694d9eea1&w=1480');
+  background-position: right;
+  background-size: 80%;
+  background-repeat: no-repeat;
+
+}
+
+#services {
+  background-color: rgb(213, 236, 236);
+}
+
+.btn-arrow {
+  background: none;
+  border: none;
+  width: 2rem;
+  z-index: 1 ;
+}
+
+.btn-arrow:disabled {
+  opacity: 0.5 ;
+}
+
+.card-bg {
+  background-color: rgb(213, 236, 236);
+}
+
+#contact {
+  background-image: url('https://img.freepik.com/free-vector/illustration-speech-bubble_53876-5625.jpg?t=st=1715896473~exp=1715900073~hmac=42e16281d888c3a3f7265b37b2a752e1625920afecfa14d8e82b54b1680d0c12&w=1380');
+  /* filter: drop-shadow(2px 2px 20px rgb(100, 193, 191)); */
+  background-position: right;
+  background-size: 70%;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  #home {
+    background-size: contain; /* Adjust for smaller screens */
+    background-position: center ; /* Position the image differently if needed */
+    background-repeat: no-repeat;
+  }
+  #contact {
+    background-size: contain; /* Adjust for smaller screens */
+    background-position: center ; /* Position the image differently if needed */
+    background-repeat: no-repeat;
+  }
+
+}
+
